@@ -13,7 +13,7 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "About", href: "#about" },
   ],
   socialLinks: [{ text: "Github", href: "https://github.com/a-3140" }],
-  socialImage: "/zen-og.png",
+  socialImage: "",
   canonicalURL: "https://a3140.com",
 };
 
@@ -103,7 +103,7 @@ export const SITE_CONTENT: SiteContent = {
       name: "Quiz App (NextJS)",
       summary:
         "Simple quiz application connected to a free API with a database of questions; gives you a score at the end, supports repeat play and multiplayer features.",
-      linkPreview: "/works",
+      linkPreview: "https://github.com/a-3140/quiz_app",
       linkSource: "https://quiz-app-a-3140.vercel.app",
       image: "/quiz.png",
     },
@@ -111,7 +111,7 @@ export const SITE_CONTENT: SiteContent = {
       name: "UI Component Library Starter — Vue3 + TypeScript + Vite + TailwindCSS",
       summary:
         "Starter component library using Storybook as a self‑documenting starter for large projects.",
-      linkPreview: "/works",
+      linkPreview: "https://github.com/a-3140/foam_coffee",
       linkSource: "https://foam-coffee.vercel.app",
       image: "/foam.png",
     },
