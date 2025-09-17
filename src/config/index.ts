@@ -103,16 +103,16 @@ export const SITE_CONTENT: SiteContent = {
       name: "Quiz App (NextJS)",
       summary:
         "Simple quiz application connected to a free API with a database of questions; gives you a score at the end, supports repeat play and multiplayer features.",
-      linkPreview: "https://github.com/a-3140/quiz_app",
-      linkSource: "https://quiz-app-a-3140.vercel.app",
+      linkPreview: "https://quiz-app-a-3140.vercel.app",
+      linkSource: "https://github.com/a-3140/quiz_app",
       image: "/quiz.png",
     },
     {
       name: "UI Component Library Starter — Vue3 + TypeScript + Vite + TailwindCSS",
       summary:
         "Starter component library using Storybook as a self‑documenting starter for large projects.",
-      linkPreview: "https://github.com/a-3140/foam_coffee",
-      linkSource: "https://foam-coffee.vercel.app",
+      linkPreview: "https://foam-coffee.vercel.app",
+      linkSource: "https://github.com/a-3140/foam_coffee",
       image: "/foam.png",
     },
   ],
