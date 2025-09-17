@@ -1,6 +1,7 @@
 ---
 import Header from "@components/Header.astro";
 import Analytics from '@vercel/analytics/astro'
+import  SpeedInsights  from "@vercel/speed-insights/astro"
 import "@fontsource/be-vietnam-pro";
 import "@fontsource-variable/gabarito";
 import { SITE_CONFIG } from "@config";
@@ -48,6 +49,7 @@ const ogImgUrl = canonicalURL + socialImage;
     <main class="mx-auto max-w-3xl px-5">
       <slot />
       <Analytics />
+      <SpeedInsights />
     </main>
     <Footer author={author} socialLinks={socialLinks} />
   </body>
